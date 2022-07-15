@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+      <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+
+    <section class="container">
+      <form id="my-form" > </form>
+    </section>
+
+    <section class="display">
+        <form id="my-form1" >
+        <h1>Score: </h1>
+        <label class="score"> 0 </label>
+        <h1> <br> You have </h1>
+        <label class="undo-display"> 5 Undo left </label>
+        </form>    
+    </section>
+
+    <section class="time">
+        <form id="my-form-time" >
+        <h1> Time: </h1>
+        <label type='timer' id="timer">10 Seconds</label>
+        </form>
+    </section> 
+
+    <form id="my-form2" action="file:///E:/JavaScript/2048/sample.html?">
+        <input class="res" type="submit" value="RESTART">
+    </form>
+
+    <form id="my-form3">
+        <input class="stop" type="submit" value="STOP">
+        <input class="undo" type="submit" value="UNDO">
+    </form>
+
+    <form class="stopmsg">
+        <p class="final-msg"> </p>
+        <p class="final-matrix"> </p>
+        <label class="msg"> No Undo Left <br> Restart The Game </label>
+        <input class="stop-yes" type="submit" value="YES">
+        <input class="stop-no" type="submit" value="NO">
+    </form>
+
+    <form class="congrats">
+        <label class="congo"> CONGRATULATION </label>
+    </form>
+    
+
+    <script src="main.js"></script> 
+  </body>
+</html>
